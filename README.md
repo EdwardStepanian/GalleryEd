@@ -1,6 +1,6 @@
 # GalleryEd
 
-[App in heroku ](galleryort.herokuapp.com)
+[App in heroku ](http://galleryort.herokuapp.com)
 
 ## For installing  local
 

@@ -4,6 +4,6 @@ const path = require('path');
 
 app.use('/', express.static(path.join(__dirname ,'/../dist')));
 console.log(path.join(__dirname , '/../dist'));
-app.listen(5000,function () {
+app.listen(3000,function () {
     console.log('App listening on port 3000');
 });
