@@ -2,10 +2,6 @@ import React from 'react';
 import Image from 'react-bootstrap/lib/Image.js';
 import Modal from 'react-bootstrap/lib/Modal.js';
 
-
-import windowClose from './gallery';
-
-
 class Content extends Modal {
     constructor() {
         super();
@@ -15,17 +11,6 @@ class Content extends Modal {
             imgSrc : '',
             comment : ''
         };
-    }
-
-
-    hideModal() {
-        this.setState({
-            open: false
-        });
-
-    }
-    getComment(){
-
     }
     render() {
         return (
@@ -43,9 +28,6 @@ class Content extends Modal {
 
     }
 }
-
-
-
 
 export default Content;
 

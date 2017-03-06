@@ -1,8 +1,7 @@
 import React from 'react';
 import Button from 'react-bootstrap/lib/Button';
 import GalleryEd  from './gallery';
-
-var edPhotos = [];
+let edPhotos = [];
 function cloneObj(objName){
     return JSON.parse(JSON.stringify(objName));
 }
@@ -17,7 +16,6 @@ class Login extends React.Component{
         };
         this.login = this.login.bind(this);
     }
-
     login(){
         var self = this;
         FB.login(function(){
@@ -40,7 +38,6 @@ class Login extends React.Component{
                                     self.setState({
                                         imgUrl : edPhotos
                                     })
-
                                 }
                             );
                         });
