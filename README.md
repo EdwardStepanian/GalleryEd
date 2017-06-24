@@ -2,8 +2,8 @@
 
 [App in heroku ](http://galleryort.herokuapp.com)
 
-## For installing  local
+## For local install
 
-At first please run -- ```javascript npm install```
+At first please run -- ```npm install```
 
-After run -- ```javascript npm start```for launching and open localhost:3000
+After run -- ``` npm start```for launching and open localhost:3000
